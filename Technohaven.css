@@ -1,0 +1,91 @@
+
+    @keyframes bgcolor {
+    0% {
+        background-color: #ff0000
+    }
+
+    20% {
+        background-color: #33cc33
+    }
+
+    40% {
+        background-color: #0000ff
+    }
+
+    60% {
+        background-color: #f35
+    }
+
+    80% {
+        background-color: #864cbf
+    }
+    100% {
+        background-color: #cc00ff
+    }
+}
+  @keyframes Tgcolor {
+    0% {
+        color: #00ff00
+    }
+
+    50% {
+        color: #00ffff
+    }
+
+    100% {
+        color: #ff0066
+    }
+
+    }
+    
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -110px;
+    display: block
+}
+
+body {
+
+    animation: bgcolor 3s infinite;
+    animation-direction: alternate;
+
+}
+
+#wrapper{
+    height: 100%;
+    width:auto;
+}
+
+#header {
+    background-color: #00;
+    width: auto;
+    margin: auto;
+    text-align: center;
+    font-family: Fantasy;
+    font-size: 25;
+    
+    -webkit-animation: Tgcolor 2s infinite;
+    animation: Tgcolor 1.5s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+#content{
+    background-color: #00;
+    height: 500px;
+    width: auto;
+    margin: auto;
+    align-content: center;
+}
+
+#footer{
+    height:50px;
+    width:auto;
+    font-family: Fantasy;
+    font-size: 10;
+    -webkit-animation: Tgcolor 2s infinite;
+    animation: Tgcolor 1.5s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
